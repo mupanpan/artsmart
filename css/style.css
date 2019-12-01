@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color:#fff;
+    background-color:#F5F5F5;
     font-family: "宋体", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;    
 }
 
@@ -33,14 +33,14 @@ nav {
 }
 
 nav ul {width: 80%; margin:auto;list-style: none;display: inline-block;}
-nav ul li {float:left; height:50px;}
+nav ul li {float:left; height:60px;}
 nav ul li:first-child{margin-left: 0;}
 
 nav ul li a {
     display:block;
     font-size:18px;
-    height:50px;
-    line-height: 50px; 
+    height:60px;
+    line-height: 60px; 
     background-color: #575757;  
     padding:0 32px;
 }
