@@ -24,15 +24,15 @@ header .banner {
 
 nav {
     width:100%;
-    height:50px;
+    height:60px;
     margin:0px auto;    
-    background-color:rgb(6, 182, 226);
+    background-color:#575757;
     color:#fff;
     text-align: center;
-    line-height: 50px;
+    line-height: 60px;
 }
 
-nav ul {width: 80%; margin:auto;list-style: none;}
+nav ul {width: 80%; margin:auto;list-style: none;display: inline-block;}
 nav ul li {float:left; height:50px;}
 nav ul li:first-child{margin-left: 0;}
 
@@ -41,8 +41,22 @@ nav ul li a {
     font-size:18px;
     height:50px;
     line-height: 50px; 
-    background-color: rgb(6, 182, 226);  
+    background-color: #575757;  
     padding:0 32px;
+}
+
+@media screen and (max-device-width: 768px) {
+    nav ul {width: 100%; margin:0 auto;list-style: none;display: inline-block;}
+    nav ul li a {
+        padding:0 10px;
+    }
+}
+
+@media screen and (max-width: 1463px) {
+    nav ul {width: 100%; margin:0 auto;list-style: none;display: inline-block;}
+    nav ul li a {
+        padding:0 10px;
+    }
 }
 
 nav ul li a:link {
@@ -51,7 +65,7 @@ nav ul li a:link {
 
 nav ul li a:hover {
     background-color: #fff; 
-    color:rgb(6, 182, 226);     
+    color:#575757;     
 }
 
 a:visited { color:#fff }
