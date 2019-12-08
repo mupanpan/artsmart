@@ -81,10 +81,59 @@ section {
 }
 
 section .title {
+    color: #555;
+    border-left: 5px #00FFFF solid;
     font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif; 
     margin-top: 40px;
     margin-bottom:10px;
     font-size: 24px;
+    width:80%;
+    margin:0 auto;
+}
+
+.container {
+    width:80%;
+    margin:0 auto;
+}
+
+.container p {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+    margin: 5px auto;
+    text-indent: 2em;
+    font-size: 17.3px;
+    line-height: 1.75em;
+    color: #333;
+}
+
+.container p.thick {
+    font-weight: bold;
+}
+
+.container p a {
+    color: #0000ff;
+}
+
+.container p a:hover {
+    color: #ff0000;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.container h1 {
+    color: #555;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+}
+
+.container h3 {
+    color: #444;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
 }
 
 
