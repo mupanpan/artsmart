@@ -134,6 +134,8 @@ section .title {
     color: #444;
     font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial,
         sans-serif;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 
