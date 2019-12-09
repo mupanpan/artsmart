@@ -154,9 +154,9 @@ section .title {
 }
 
 .contentA .title {
-    color: #555;
-    border-left: 5px #00FFFF solid;
-    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    color: rgb(10, 123, 228);    
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold; 
     margin-top: 40px;
     margin-bottom:10px;
     font-size: 24px;
@@ -165,9 +165,9 @@ section .title {
 }
 
 .contentB .title {
-    color: #555;
-    border-left: 5px #00FFFF solid;
+    color: rgb(10, 123, 228);
     font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: bold;
     margin-top: 40px;
     margin-bottom:10px;
     font-size: 24px;
