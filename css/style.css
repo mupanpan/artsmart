@@ -30,6 +30,7 @@ nav {
     color:#fff;
     text-align: center;
     line-height: 60px;
+    display: block;
 }
 
 nav ul {width: 80%; margin:auto;list-style: none;display: inline-block;}
