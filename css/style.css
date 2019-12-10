@@ -41,7 +41,7 @@ header .banner {
 .banner .rela-btn{ width: 100%; text-align: center; margin-bottom: 16px; }
 .banner .rela-btn .btn2{ display: inline-block; width: 180px; margin: 0 26px; background-color: #f89b38;  border-radius: 4px; font-size: 18px; color: #fff; line-height: 40px; text-decoration: none;}
 .banner .rela-btn .btn2.not-allow{ background-color: #ccc; color: #999; cursor: no-drop; }
-.banner .rela-btn .btn1{ display: inline-block; width: 180px; margin: 0 26px; border-radius: 4px;  border: solid 1px #f89b38; font-size: 18px; color: #f89b38; line-height: 40px; }
+.banner .rela-btn .btn1{ display: inline-block; width: 180px; margin: 0 26px; border-radius: 4px;  border: solid 1px #f89b38; font-size: 18px; color: #f89b38; line-height: 40px; text-decoration: none;}
 .banner .rela-btn .btn1:hover{ background-color: #f89b38; color: #fff; }
 
 nav {
