@@ -154,6 +154,27 @@ section .title {
     margin:10px auto;
 }
 
+.video_box {
+    display:flex;
+    justify-content: center;
+}
+
+.video_item {
+    width:40%;
+    height:auto;
+    margin-left:20px;
+    margin-right:20px;    
+}
+
+.video_item .video_title {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top:10px;
+    margin-bottom: 10px;    
+    font-size: 16px;  
+    color: #444; 
+    text-align: center;    
+}
+
 .contentA .title {
     color: rgb(10, 123, 228);    
     font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
