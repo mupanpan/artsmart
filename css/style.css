@@ -55,7 +55,7 @@ nav {
     display: block;
 }
 
-nav ul {width: 80%; margin:auto;list-style: none;display: inline-block;}
+nav ul {margin:auto;list-style: none;display: inline-block;}
 nav ul li {float:left; height:60px;}
 nav ul li:first-child{margin-left: 0;}
 
